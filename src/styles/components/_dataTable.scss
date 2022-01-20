@@ -1,0 +1,16 @@
+@import "../variables";
+
+.DataTable {
+  background-color: $primary_color;
+  span,
+  label {
+    color: white;
+  }
+  .utilsBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+}

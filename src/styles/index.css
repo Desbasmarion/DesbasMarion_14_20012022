@@ -97,4 +97,37 @@ body {
 .Form label {
   margin-bottom: 1%;
 }
+
+.DataTable {
+  background-color: #93ad18;
+}
+
+.DataTable span,
+.DataTable label {
+  color: white;
+}
+
+.DataTable .utilsBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.EmployeeList main {
+  background-color: #93ad18;
+  text-align: center;
+}
+
+.EmployeeList main a,
+.EmployeeList main h2 {
+  color: white;
+}
 /*# sourceMappingURL=index.css.map */
