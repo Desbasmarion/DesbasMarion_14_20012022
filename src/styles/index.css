@@ -1,6 +1,6 @@
 * {
   font-family: "Roboto", sans-serif;
-  color: white;
+  color: #93ad18;
 }
 
 body {
@@ -17,10 +17,11 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 2%;
 }
 
 .Header h1 {
-  color: #93AD18;
+  color: #93ad18;
 }
 
 .Header img {
@@ -30,8 +31,70 @@ body {
 }
 
 .CreateEmployee main {
-  background-color: #93AD18;
-  height: 400px;
+  background-color: #93ad18;
   text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.CreateEmployee main a,
+.CreateEmployee main h2 {
+  color: white;
+}
+
+.Form {
+  width: 30%;
+  margin: 0 auto;
+  text-align: justify;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 10px;
+  padding: 2%;
+}
+
+.Form div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-bottom: 5%;
+}
+
+.Form input,
+.Form button,
+.Form option,
+.Form select {
+  color: black;
+  border-radius: 5px;
+  border: none;
+  height: 35px;
+  border: #93ad18 solid;
+  cursor: pointer;
+}
+
+.Form fieldset,
+.Form legend {
+  margin-bottom: 5%;
+}
+
+.Form fieldset {
+  border: solid;
+}
+
+.Form #saveButton {
+  background-color: #93ad18;
+  color: white;
+  width: 30%;
+  cursor: pointer;
+}
+
+.Form label {
+  margin-bottom: 1%;
 }
 /*# sourceMappingURL=index.css.map */

@@ -1,6 +1,8 @@
+@import "./variables";
+
 * {
   font-family: "Roboto", sans-serif;
-  color: white;
+  color: $primary_color;
 }
 body {
   margin: 0 auto;

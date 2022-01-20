@@ -1,0 +1,44 @@
+@import "../variables";
+
+.Form {
+  width: 30%;
+  margin: 0 auto;
+  text-align: justify;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 10px;
+  padding: 2%;
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 5%;
+  }
+  input,
+  button,
+  option,
+  select {
+    color: black;
+    border-radius: 5px;
+    border: none;
+    height: 35px;
+    border: $primary_color solid;
+    cursor: pointer;
+  }
+  fieldset,
+  legend {
+    margin-bottom: 5%;
+  }
+  fieldset {
+    border: solid;
+  }
+  #saveButton {
+    background-color: $primary_color;
+    color: white;
+    width: 30%;
+    cursor: pointer;
+  }
+  label {
+    margin-bottom: 1%;
+  }
+}

@@ -3,7 +3,12 @@
 .CreateEmployee {
   main {
     background-color: $primary_color;
-    height: 400px;
     text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    a,
+    h2 {
+      color: white;
+    }
   }
 }
