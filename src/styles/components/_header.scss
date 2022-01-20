@@ -1,0 +1,17 @@
+@import "../variables";
+
+.Header {
+  display: flex;
+  height: 80px;
+  margin-top: 2%;
+  position: relative;
+  justify-content: center;
+  h1 {
+    color: $primary_color;
+  }
+  img {
+    height: 100%;
+    position: absolute;
+    left: 0;
+  }
+}
