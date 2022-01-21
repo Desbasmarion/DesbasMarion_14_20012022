@@ -1,25 +1,11 @@
 import React from 'react';
-
+import DataTables from 'datatables-plugin-react';
+import { exampleLabels, exampleData } from '../data/mockedData';
 
 const DataTable = () => {
 	return (
 		<div className='DataTable'>
-			<div className='utilsBar'>
-				<p><span>Show </span> 
-					<select>
-						<option value={10}>10</option>
-						<option value={25}>25</option>
-						<option value={50}>50</option>
-						<option value={100}>100</option>
-					</select> 
-					<span> entries</span>
-				</p>
-				<div className='searchBar'>
-					<label htmlFor='search'>Search: </label>
-					<input type='search'></input>
-				</div>
-			</div>
-			
+			<DataTables labels={exampleLabels} data={exampleData} />
 		</div>
 	);
 };

@@ -1,6 +1,5 @@
 * {
   font-family: "Roboto", sans-serif;
-  color: #93ad18;
 }
 
 body {
@@ -50,6 +49,7 @@ body {
   background-color: white;
   border-radius: 10px;
   padding: 2%;
+  color: #93ad18;
 }
 
 .Form div {
@@ -70,7 +70,6 @@ body {
 .Form button,
 .Form option,
 .Form select {
-  color: black;
   border-radius: 5px;
   border: none;
   height: 35px;
@@ -98,30 +97,9 @@ body {
   margin-bottom: 1%;
 }
 
-.DataTable {
-  background-color: #93ad18;
-}
-
-.DataTable span,
-.DataTable label {
-  color: white;
-}
-
-.DataTable .utilsBar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-right: 5%;
-  margin-left: 5%;
-}
-
 .EmployeeList main {
+  padding-top: 5%;
+  padding-bottom: 5%;
   background-color: #93ad18;
   text-align: center;
 }
@@ -129,5 +107,22 @@ body {
 .EmployeeList main a,
 .EmployeeList main h2 {
   color: white;
+}
+
+.DataTable {
+  background-color: white;
+  width: 70%;
+  margin: 0 auto;
+  padding: 2%;
+  padding-bottom: 5%;
+  border-radius: 10px;
+}
+
+.DataTable table {
+  width: 100%;
+}
+
+.DataTable .dtb {
+  margin: 0 auto;
 }
 /*# sourceMappingURL=index.css.map */

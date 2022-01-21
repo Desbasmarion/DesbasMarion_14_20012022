@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import DataTable from '../components/DataTable';
 import Header from '../components/Header';
+import DataTable from '../components/DataTable';
 
 const EmployeeList = () => {
 	return (
