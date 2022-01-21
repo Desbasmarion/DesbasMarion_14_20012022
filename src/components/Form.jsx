@@ -4,6 +4,10 @@ import stateData from '../data/stateData';
 
 const Form = () => {
 
+	// const state = {
+
+	// }
+
 	return (
 		<div className='Form'>
 			<form method='post'>
