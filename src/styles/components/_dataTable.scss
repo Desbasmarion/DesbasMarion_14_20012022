@@ -2,7 +2,7 @@
 
 .DataTable {
   background-color: white;
-  width: 70%;
+  width: 90%;
   margin: 0 auto;
   padding: 2%;
   padding-bottom: 5%;
@@ -12,5 +12,6 @@
   }
   .dtb {
     margin: 0 auto;
+    max-width: initial;
   }
 }

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import departments from '../data/departmentsData';
 import stateData from '../data/stateData';
+import { Modal } from 'react_modal_library';
 
 const Form = () => {
 
@@ -14,6 +15,10 @@ const Form = () => {
 	const [ zipCode, setZipCode] = useState('');
 	const [ department, setDepartment] = useState('');
 
+	const [ isOpen, setIsOpen ] = useState(false);
+	const openModal = () => setIsOpen(true);
+	const closeModal = () => setIsOpen(false);
+	
 	let arrayInfos = JSON.parse(localStorage.getItem('infosEmployee')) || [];
 
 	const infosEmployee = {
@@ -30,11 +35,11 @@ const Form = () => {
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
-	
 		arrayInfos.push(infosEmployee);
-		console.log(arrayInfos, 'dedans');
 		const infosEmployeeStorage = JSON.stringify(arrayInfos);
 		localStorage.setItem('infosEmployee', infosEmployeeStorage);
+		openModal();
+
 	};
 
 	return (
@@ -89,6 +94,7 @@ const Form = () => {
 				</div>
 			</form>
 			<button type='submit' id='saveButton' onClick={handleSubmit}>Save</button>
+			{isOpen && <Modal text='Employee created' close={closeModal} />}
 		</div>
 	);
 };

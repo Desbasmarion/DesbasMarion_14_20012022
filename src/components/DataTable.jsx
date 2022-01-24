@@ -12,8 +12,7 @@ const DataTable = () => {
 	
 	return (
 		<div className='DataTable'>
-			{employeesInfos.length >= 1 ? <DataTables labels={exampleLabels} data={employeesInfos} /> : 'Loading'}
-			
+			{employeesInfos?.length >= 1 ? <DataTables labels={exampleLabels} data={employeesInfos} /> : 'Please create an employee to see their informations'}
 		</div>
 	);
 };
