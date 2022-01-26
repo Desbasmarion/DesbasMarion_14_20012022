@@ -3,6 +3,12 @@ import departments from '../data/departmentsData';
 import stateData from '../data/stateData';
 import { Modal } from 'react_modal_library';
 
+/**
+ * 
+ * @returns Form component and Modal react library
+ * Localstorage used for data persistence
+ */
+
 const Form = () => {
 	
 	const [ firstname, setFirstname] = useState('');

@@ -2,6 +2,12 @@ import React, { useEffect, useState } from 'react';
 import DataTables from 'datatables-plugin-react';
 import { exampleLabels } from '../data/mockedData';
 
+/**
+ * 
+ * @returns DataTables react plugin with employees list
+ * Localstorage used for data persistence
+ */
+
 const DataTable = () => {
 	const [employeesInfos, setEmployeesInfos] = useState([]);
 	

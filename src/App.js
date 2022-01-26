@@ -4,6 +4,11 @@ import CreateEmployee from './pages/CreateEmployee';
 import EmployeeList from './pages/EmployeeList';
 import Error from './pages/Error';
 
+/**
+ * 
+ * @returns routes of whole application
+ */
+
 const App = () => {
 	return (
 		<BrowserRouter >

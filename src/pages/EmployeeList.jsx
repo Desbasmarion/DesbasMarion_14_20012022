@@ -3,6 +3,11 @@ import { NavLink } from 'react-router-dom';
 import Header from '../components/Header';
 import DataTable from '../components/DataTable';
 
+/**
+ * 
+ * @returns page with employee list
+ */
+
 const EmployeeList = () => {
 	return (
 		<div className='EmployeeList'>
