@@ -4,7 +4,7 @@ import { exampleLabels } from '../data/mockedData';
 
 const DataTable = () => {
 	const [employeesInfos, setEmployeesInfos] = useState([]);
-
+	
 	useEffect( () => {
 		let data = JSON.parse(localStorage.getItem('infosEmployee'));
 		setEmployeesInfos(data);
